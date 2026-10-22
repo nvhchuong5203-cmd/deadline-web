@@ -1,0 +1,1394 @@
+{
+ "app": {
+  "title": "Deadline thiết kế",
+  "source": "設計予定_20261017",
+  "updated": "2026-10-22"
+ },
+ "rules": {
+  "soonDays": 7
+ },
+ "items": [
+  {
+   "code": "E524",
+   "part": "SM,T",
+   "no": "5,9,11+1,9",
+   "deadline": "2026-10-18",
+   "people": [
+    "小林"
+   ],
+   "done": false
+  },
+  {
+   "code": "E524",
+   "part": "SM,T",
+   "no": "1,3,4,5,6,9,11,1",
+   "deadline": "2026-11-11",
+   "people": [
+    "岡丸"
+   ],
+   "done": false
+  },
+  {
+   "code": "E524",
+   "part": "SM",
+   "no": "1,2,4,5,9,10,11",
+   "deadline": "2026-11-11",
+   "people": [
+    "岡丸"
+   ],
+   "done": false
+  },
+  {
+   "code": "E543",
+   "part": "G",
+   "no": "16,17,18",
+   "deadline": "2026-11-16",
+   "people": [
+    "Dhai"
+   ],
+   "done": false
+  },
+  {
+   "code": "E543",
+   "part": "GH",
+   "no": "1～14",
+   "deadline": "2026-11-16",
+   "people": [
+    "Dhai"
+   ],
+   "done": false
+  },
+  {
+   "code": "F355",
+   "part": "GH",
+   "no": "15.2",
+   "deadline": "2026-10-29",
+   "people": [
+    "小林"
+   ],
+   "done": false
+  },
+  {
+   "code": "F355",
+   "part": "H",
+   "no": "4→6",
+   "deadline": "2026-10-18",
+   "people": [
+    "Loi"
+   ],
+   "done": false
+  },
+  {
+   "code": "F359",
+   "part": "HG",
+   "no": "1～9斜め対応",
+   "deadline": "2026-11-08",
+   "people": [
+    "小林"
+   ],
+   "done": false
+  },
+  {
+   "code": "F359",
+   "part": "HG",
+   "no": "10～119斜め対応",
+   "deadline": "2026-11-08",
+   "people": [
+    "小林"
+   ],
+   "done": false
+  },
+  {
+   "code": "F359",
+   "part": "HG",
+   "no": "129斜め対応",
+   "deadline": "2026-11-08",
+   "people": [
+    "小林"
+   ],
+   "done": false
+  },
+  {
+   "code": "J219",
+   "part": "K",
+   "no": "5",
+   "deadline": "2026-10-18",
+   "people": [
+    "3Dチーム"
+   ],
+   "done": false
+  },
+  {
+   "code": "J219",
+   "part": "G",
+   "no": "1,2,3,4,5,6",
+   "deadline": "2026-11-08",
+   "people": [
+    "NtHieu"
+   ],
+   "done": false
+  },
+  {
+   "code": "J220",
+   "part": "B",
+   "no": "3",
+   "deadline": "2026-10-18",
+   "people": [
+    "Vy"
+   ],
+   "done": true
+  },
+  {
+   "code": "J221",
+   "part": "B",
+   "no": "2→3→1",
+   "deadline": "2026-10-18",
+   "people": [
+    "NtHieu"
+   ],
+   "done": false
+  },
+  {
+   "code": "J222",
+   "part": "Q",
+   "no": "1回目1→3",
+   "deadline": "2026-10-18",
+   "people": [
+    "岡丸"
+   ],
+   "done": false
+  },
+  {
+   "code": "J222",
+   "part": "Q",
+   "no": "2",
+   "deadline": "2026-10-20",
+   "people": [
+    "小林"
+   ],
+   "done": false
+  },
+  {
+   "code": "J222",
+   "part": "Q",
+   "no": "2回目1→3",
+   "deadline": "2026-11-01",
+   "people": [
+    "岡丸"
+   ],
+   "done": false
+  },
+  {
+   "code": "M311",
+   "part": "HG",
+   "no": "1",
+   "deadline": "2026-10-18",
+   "people": [
+    "Vy"
+   ],
+   "done": false
+  },
+  {
+   "code": "M311",
+   "part": "G",
+   "no": "14",
+   "deadline": "2026-10-18",
+   "people": [
+    "Nguyen"
+   ],
+   "done": false
+  },
+  {
+   "code": "M311",
+   "part": "GH",
+   "no": "9",
+   "deadline": "2026-10-18",
+   "people": [
+    "Hieu"
+   ],
+   "done": false
+  },
+  {
+   "code": "M311",
+   "part": "GH",
+   "no": "10",
+   "deadline": "2026-10-25",
+   "people": [
+    "Nguyen"
+   ],
+   "done": false
+  },
+  {
+   "code": "M315",
+   "part": "GH",
+   "no": "3",
+   "deadline": "2026-10-18",
+   "people": [
+    "NtHieu"
+   ],
+   "done": true
+  },
+  {
+   "code": "M316",
+   "part": "H",
+   "no": "2,10,11",
+   "deadline": "2026-10-27",
+   "people": [
+    "Vy"
+   ],
+   "done": false
+  },
+  {
+   "code": "M316",
+   "part": "B",
+   "no": "3",
+   "deadline": "2026-10-18",
+   "people": [
+    "Nguyen"
+   ],
+   "done": true
+  },
+  {
+   "code": "M316",
+   "part": "G",
+   "no": "9,10,8,8.2",
+   "deadline": "2026-11-02",
+   "people": [
+    "Nguyen"
+   ],
+   "done": false
+  },
+  {
+   "code": "M316",
+   "part": "GH",
+   "no": "1～7",
+   "deadline": "2026-11-02",
+   "people": [
+    "Nguyen"
+   ],
+   "done": false
+  },
+  {
+   "code": "M316",
+   "part": "G",
+   "no": "8,9,10,8.2",
+   "deadline": "2026-11-02",
+   "people": [
+    "Nguyen"
+   ],
+   "done": false
+  },
+  {
+   "code": "M316",
+   "part": "GH",
+   "no": "6→2→4",
+   "deadline": "2026-11-08",
+   "people": [
+    "NtHieu"
+   ],
+   "done": false
+  },
+  {
+   "code": "M317",
+   "part": "GH",
+   "no": "2→6→4→7",
+   "deadline": "2026-10-25",
+   "people": [
+    "Hieu"
+   ],
+   "done": false
+  },
+  {
+   "code": "M317",
+   "part": "GH",
+   "no": "3",
+   "deadline": "2026-10-18",
+   "people": [
+    "Hieu"
+   ],
+   "done": true
+  },
+  {
+   "code": "M319",
+   "part": "K",
+   "no": "3",
+   "deadline": "2026-10-27",
+   "people": [
+    "3Dチーム"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q208",
+   "part": "GH",
+   "no": "②1→6",
+   "deadline": "2026-10-21",
+   "people": [
+    "Hao"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q208",
+   "part": "GH",
+   "no": "①3→4→5→2→7",
+   "deadline": "2026-10-21",
+   "people": [
+    "Hao"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q209",
+   "part": "SM",
+   "no": "8",
+   "deadline": "2026-10-18",
+   "people": [
+    "Giap"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q209",
+   "part": "SM",
+   "no": "9",
+   "deadline": "2026-10-18",
+   "people": [
+    "江"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q209",
+   "part": "SM",
+   "no": "1→3",
+   "deadline": "2026-10-22",
+   "people": [
+    "Giap"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q209",
+   "part": "SM",
+   "no": "2",
+   "deadline": "2026-10-21",
+   "people": [
+    "江"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q209",
+   "part": "SM",
+   "no": "11,12,13",
+   "deadline": "2026-11-05",
+   "people": [
+    "江"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q209",
+   "part": "SM",
+   "no": "17,18",
+   "deadline": "2026-11-12",
+   "people": [
+    "江"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q209",
+   "part": "SM",
+   "no": "19,20",
+   "deadline": "2026-11-18",
+   "people": [
+    "江"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q214",
+   "part": "G",
+   "no": "43→42",
+   "deadline": "2026-10-28",
+   "people": [
+    "Trieu"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q214",
+   "part": "H",
+   "no": "32→34→36→37",
+   "deadline": "2026-11-09",
+   "people": [
+    "Trieu"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q214",
+   "part": "W",
+   "no": "54→52",
+   "deadline": "2026-10-18",
+   "people": [
+    "Trieu"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q215",
+   "part": "G",
+   "no": "15",
+   "deadline": "2026-10-18",
+   "people": [
+    "Hao"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q215",
+   "part": "GH",
+   "no": "1→3→4→5→6",
+   "deadline": "2026-10-25",
+   "people": [
+    "Hao",
+    "多聞"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q215",
+   "part": "GH",
+   "no": "2",
+   "deadline": "2026-10-18",
+   "people": [
+    "多聞"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q215",
+   "part": "GH",
+   "no": "12",
+   "deadline": "2026-10-26",
+   "people": [
+    "Hao"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q215",
+   "part": "H",
+   "no": "3→5→1",
+   "deadline": "2026-10-18",
+   "people": [
+    "Kiwi"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q215",
+   "part": "H",
+   "no": "4→11→10→6→7",
+   "deadline": "2026-11-01",
+   "people": [
+    "Kiwi"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q215",
+   "part": "G",
+   "no": "23→22",
+   "deadline": "2026-11-01",
+   "people": [
+    "Giap"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q215",
+   "part": "GH",
+   "no": "16→20",
+   "deadline": "2026-10-27",
+   "people": [
+    "多聞"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q215",
+   "part": "GH",
+   "no": "17→18",
+   "deadline": "2026-11-04",
+   "people": [
+    "Hieu"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q215",
+   "part": "GH",
+   "no": "19",
+   "deadline": "2026-11-15",
+   "people": [
+    "Giap"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q215",
+   "part": "GH",
+   "no": "21",
+   "deadline": "2026-11-09",
+   "people": [
+    "Hao"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q217",
+   "part": "Z",
+   "no": "1→2→3",
+   "deadline": "2026-10-21",
+   "people": [
+    "島田"
+   ],
+   "done": false
+  },
+  {
+   "code": "Q217",
+   "part": "V",
+   "no": "6,7,8,9",
+   "deadline": "2026-11-16",
+   "people": [
+    "Thanh"
+   ],
+   "done": false
+  },
+  {
+   "code": "R071",
+   "part": "SM",
+   "no": "1,2,3,4",
+   "deadline": "2026-10-18",
+   "people": [
+    "島田"
+   ],
+   "done": false
+  },
+  {
+   "code": "R071",
+   "part": "SM",
+   "no": "5,6,7,8",
+   "deadline": "2026-10-18",
+   "people": [
+    "島田"
+   ],
+   "done": false
+  },
+  {
+   "code": "R096",
+   "part": "SM",
+   "no": "3→9→4→5→2",
+   "deadline": "2026-10-18",
+   "people": [
+    "片山"
+   ],
+   "done": false
+  },
+  {
+   "code": "R096",
+   "part": "SM",
+   "no": "6→7→8→10→11",
+   "deadline": "2026-10-18",
+   "people": [
+    "森永"
+   ],
+   "done": false
+  },
+  {
+   "code": "U258",
+   "part": "H",
+   "no": "4",
+   "deadline": "2026-10-25",
+   "people": [
+    "菊原"
+   ],
+   "done": false
+  },
+  {
+   "code": "U258",
+   "part": "Z",
+   "no": "3",
+   "deadline": "2026-11-08",
+   "people": [
+    "島田"
+   ],
+   "done": false
+  },
+  {
+   "code": "X381",
+   "part": "G",
+   "no": "100",
+   "deadline": "2026-10-21",
+   "people": [
+    "土屋"
+   ],
+   "done": false
+  },
+  {
+   "code": "X383",
+   "part": "H",
+   "no": "6→8",
+   "deadline": "2026-10-27",
+   "people": [
+    "Dhai"
+   ],
+   "done": false
+  },
+  {
+   "code": "X383",
+   "part": "H",
+   "no": "7",
+   "deadline": "2026-11-09",
+   "people": [
+    "Thanh"
+   ],
+   "done": false
+  },
+  {
+   "code": "X389",
+   "part": "GH",
+   "no": "4→3",
+   "deadline": "2026-11-01",
+   "people": [
+    "Loi"
+   ],
+   "done": false
+  },
+  {
+   "code": "X389",
+   "part": "GH",
+   "no": "7→2→1",
+   "deadline": "2026-10-28",
+   "people": [
+    "Dat"
+   ],
+   "done": false
+  },
+  {
+   "code": "X389",
+   "part": "GH",
+   "no": "8→6→5",
+   "deadline": "2026-10-27",
+   "people": [
+    "Thanh"
+   ],
+   "done": false
+  },
+  {
+   "code": "X392",
+   "part": "S",
+   "no": "3",
+   "deadline": "2026-10-26",
+   "people": [
+    "江"
+   ],
+   "done": false
+  },
+  {
+   "code": "X392",
+   "part": "S",
+   "no": "7",
+   "deadline": "2026-10-18",
+   "people": [
+    "菊原"
+   ],
+   "done": false
+  },
+  {
+   "code": "T027",
+   "part": "K",
+   "no": "5",
+   "deadline": "2026-10-18",
+   "people": [
+    "3Dチーム"
+   ],
+   "done": false
+  },
+  {
+   "code": "T053",
+   "part": "G",
+   "no": "7→8→9→12→13→6",
+   "deadline": "2026-10-18",
+   "people": [
+    "LgTu"
+   ],
+   "done": false
+  },
+  {
+   "code": "T053",
+   "part": "G",
+   "no": "10",
+   "deadline": "2026-10-18",
+   "people": [
+    "土橋"
+   ],
+   "done": false
+  },
+  {
+   "code": "T054",
+   "part": "SM",
+   "no": "1→2→3→8→4→6→5→7",
+   "deadline": "2026-10-18",
+   "people": [
+    "正史"
+   ],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "B",
+   "no": "301",
+   "deadline": "2026-10-18",
+   "people": [
+    "Deni"
+   ],
+   "done": true
+  },
+  {
+   "code": "T037",
+   "part": "B",
+   "no": "302→303",
+   "deadline": "2026-11-03",
+   "people": [
+    "Linh"
+   ],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "1,2",
+   "deadline": "2026-10-18",
+   "people": [
+    "Dat"
+   ],
+   "done": true
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "4→3",
+   "deadline": "2026-10-18",
+   "people": [
+    "Dat"
+   ],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "6→202→5",
+   "deadline": "2026-10-18",
+   "people": [
+    "Linh"
+   ],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "201",
+   "deadline": "2026-10-18",
+   "people": [
+    "Linh"
+   ],
+   "done": true
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "204→206",
+   "deadline": "2026-10-18",
+   "people": [
+    "Thanh"
+   ],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "207→205",
+   "deadline": "2026-10-18",
+   "people": [
+    "Dhai"
+   ],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "209→208→1→2",
+   "deadline": "2026-11-10",
+   "people": [
+    "Dat",
+    "Linh"
+   ],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "201→203→204",
+   "deadline": "2026-11-15",
+   "people": [
+    "Linh"
+   ],
+   "done": false
+  },
+  {
+   "code": "T046",
+   "part": "R",
+   "no": "2",
+   "deadline": "2026-10-20",
+   "people": [
+    "Deni"
+   ],
+   "done": false
+  },
+  {
+   "code": "T046",
+   "part": "R",
+   "no": "3",
+   "deadline": "2026-10-18",
+   "people": [
+    "Andi"
+   ],
+   "done": false
+  },
+  {
+   "code": "T047",
+   "part": "R",
+   "no": "1→2",
+   "deadline": "2026-10-18",
+   "people": [
+    "Alfani"
+   ],
+   "done": false
+  },
+  {
+   "code": "T047",
+   "part": "S",
+   "no": "8→1",
+   "deadline": "2026-10-21",
+   "people": [
+    "Andi"
+   ],
+   "done": false
+  },
+  {
+   "code": "T047",
+   "part": "W",
+   "no": "5",
+   "deadline": "2026-10-21",
+   "people": [
+    "藤﨑"
+   ],
+   "done": false
+  },
+  {
+   "code": "T048",
+   "part": "R",
+   "no": "2",
+   "deadline": "2026-10-18",
+   "people": [
+    "Deni"
+   ],
+   "done": true
+  },
+  {
+   "code": "T052",
+   "part": "K",
+   "no": "2→3",
+   "deadline": "2026-10-25",
+   "people": [
+    "土橋"
+   ],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "H",
+   "no": "3→1",
+   "deadline": "2026-10-18",
+   "people": [
+    "坂"
+   ],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "H",
+   "no": "5→7→6→8",
+   "deadline": "2026-10-18",
+   "people": [
+    "川田"
+   ],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "K",
+   "no": "2→3",
+   "deadline": "2026-10-27",
+   "people": [
+    "坂"
+   ],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "S",
+   "no": "3",
+   "deadline": "2026-10-20",
+   "people": [
+    "Andi"
+   ],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "W",
+   "no": "3",
+   "deadline": "2026-10-18",
+   "people": [
+    "Phuc"
+   ],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "W",
+   "no": "6",
+   "deadline": "2026-10-18",
+   "people": [
+    "Hau"
+   ],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "W",
+   "no": "10",
+   "deadline": "2026-10-18",
+   "people": [
+    "Hau"
+   ],
+   "done": true
+  },
+  {
+   "code": "D131",
+   "part": "W",
+   "no": "1～12",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "J213",
+   "part": "GH",
+   "no": "1～15",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "J215",
+   "part": "H",
+   "no": "1～13",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "J215",
+   "part": "H",
+   "no": "21～26",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "J219",
+   "part": "G",
+   "no": "7,8,9",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "J219",
+   "part": "G",
+   "no": "10,11,12",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "J219",
+   "part": "G",
+   "no": "1～12",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "K151",
+   "part": "H",
+   "no": "11",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "M316",
+   "part": "H",
+   "no": "3,6",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "M316",
+   "part": "GH",
+   "no": "7→3→1→5",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "M317",
+   "part": "G",
+   "no": "11,12,12.2,13",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "M317",
+   "part": "GH",
+   "no": "4→6→5→2→3→7→1",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "Q208",
+   "part": "G",
+   "no": "8,16,18",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "Q208",
+   "part": "G",
+   "no": "19→20→22→12→11",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "Q208",
+   "part": "G",
+   "no": "23→17→21→13,14,15",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "Q208",
+   "part": "GH",
+   "no": "24→18→2→25",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "Q209",
+   "part": "SM",
+   "no": "9→8→6→7",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "Q214",
+   "part": "H",
+   "no": "33",
+   "deadline": null,
+   "people": [],
+   "done": true
+  },
+  {
+   "code": "Q215",
+   "part": "GH",
+   "no": "14",
+   "deadline": null,
+   "people": [],
+   "done": true
+  },
+  {
+   "code": "Q215",
+   "part": "H",
+   "no": "2→9→8",
+   "deadline": null,
+   "people": [],
+   "done": true
+  },
+  {
+   "code": "Q217",
+   "part": "R",
+   "no": "1,2,3,4,5",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "V862",
+   "part": "T",
+   "no": "17,18",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "V862",
+   "part": "T",
+   "no": "19",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "X392",
+   "part": "S",
+   "no": "9→8→10→11",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "X393",
+   "part": "R",
+   "no": "9",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T027",
+   "part": "K",
+   "no": "6",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T027",
+   "part": "KS",
+   "no": "7,8",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T053",
+   "part": "G",
+   "no": "1～13",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "S,SM",
+   "no": "1,4,5",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "SM",
+   "no": "2,3",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "1～6",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "205→207→202→206",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "3→4→5→6",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "211",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T037",
+   "part": "G",
+   "no": "212",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T046",
+   "part": "R",
+   "no": "4",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T047",
+   "part": "R",
+   "no": "4",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T048",
+   "part": "R",
+   "no": "4",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "B",
+   "no": "1",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "G",
+   "no": "2",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "H",
+   "no": "4→2",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "K",
+   "no": "5",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "KS",
+   "no": "1",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "KS",
+   "no": "7→6",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "KW",
+   "no": "4",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "R",
+   "no": "2,1",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "S",
+   "no": "1,4",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "W",
+   "no": "4→11→13",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "W",
+   "no": "12→14→1→2→5",
+   "deadline": null,
+   "people": [],
+   "done": false
+  },
+  {
+   "code": "T059",
+   "part": "Z",
+   "no": "1",
+   "deadline": null,
+   "people": [],
+   "done": false
+  }
+ ]
+}

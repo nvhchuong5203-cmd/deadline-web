@@ -1,0 +1,56 @@
+:root {
+  /* Nền — xám tối ánh xanh tím, không dùng #000/#fff */
+  --bg: #0b0c0e;
+  --bg-2: #0e1013;
+  --surface: #121417;
+  --surface-2: #171a1f;
+  --surface-hover: #1c1f26;
+  --glass: rgba(18, 20, 23, 0.62);
+  --glass-strong: rgba(20, 22, 27, 0.82);
+  --border: rgba(255, 255, 255, 0.07);
+  --border-strong: rgba(255, 255, 255, 0.12);
+  --border-glow: rgba(140, 126, 255, 0.35);
+
+  /* Chữ */
+  --text: #e6e7ee;
+  --text-2: #a7abba;
+  --text-3: #6d7281;
+  --text-4: #474b57;
+
+  /* Nhấn — tím/xanh phát sáng */
+  --violet: #8b7cf6;
+  --violet-2: #a99cff;
+  --blue: #5b8cf7;
+  --cyan: #5fd4e6;
+  --accent: var(--violet);
+  --accent-soft: rgba(139, 124, 246, 0.14);
+  --glow: 0 0 24px rgba(139, 124, 246, 0.35);
+
+  /* Trạng thái */
+  --red: #f0707a;
+  --red-soft: rgba(240, 112, 122, 0.12);
+  --amber: #f1bc5b;
+  --amber-soft: rgba(241, 188, 91, 0.12);
+  --green: #62c99a;
+  --green-soft: rgba(98, 201, 154, 0.12);
+  --gray: #5c6170;
+
+  /* Chữ */
+  --font: "Inter", "Noto Sans JP", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --fs-xs: 11px;
+  --fs-sm: 12.5px;
+  --fs-md: 13.5px;
+  --fs-lg: 15px;
+
+  /* Hình khối */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 12px 40px rgba(4, 5, 8, 0.55);
+
+  /* Chuyển động */
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --t-fast: 120ms;
+
+  --sidebar-w: 248px;
+}

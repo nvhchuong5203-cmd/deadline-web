@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deadline thiết kế</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="bg-fx" aria-hidden="true">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="grid"></div>
+  </div>
+
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <span class="brand-mark"><span></span></span>
+        <span class="brand-name" id="appTitle">Deadline</span>
+      </div>
+
+      <nav class="nav-group nav-grow">
+        <div class="nav-label">Công trình</div>
+        <div class="nav-scroll" id="codeNav"></div>
+      </nav>
+
+      <nav class="nav-group nav-grow">
+        <div class="nav-label">Người làm</div>
+        <div class="nav-scroll" id="peopleNav"></div>
+      </nav>
+
+      <div class="sidebar-foot" id="sourceInfo"></div>
+    </aside>
+
+    <div class="scrim" id="scrim"></div>
+
+    <main class="main">
+      <header class="header">
+        <button class="icon-btn" id="menuBtn" aria-label="Mở menu">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+        <div class="header-title">
+          <div class="eyebrow" id="todayChip"></div>
+          <h1 id="viewTitle">Tổng quan</h1>
+        </div>
+        <div class="progress" title="Tiến độ hoàn thành">
+          <div class="progress-text"><span id="progressText">0/0</span> hoàn thành</div>
+          <div class="progress-track"><i id="progressBar"></i></div>
+        </div>
+        <label class="search">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="4.5" stroke="currentColor" stroke-width="1.5"/><path d="m10.5 10.5 3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <input id="search" type="search" placeholder="Tìm công trình, số No, người làm…" autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+        <button class="btn" id="exportBtn" title="Tải config.json đã cập nhật trạng thái hoàn thành để commit lên GitHub">
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 2v8m0 0-3-3m3 3 3-3M3 12.5h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="btn-text">Xuất config.json</span>
+          <span class="badge" id="pending" hidden>0</span>
+        </button>
+      </header>
+
+      <!-- Dải 14 ngày tới -->
+      <section class="card strip-card">
+        <div class="card-head">
+          <div>
+            <div class="card-title">14 ngày tới</div>
+            <div class="card-sub">Bấm vào một ngày để nhảy tới ngày đó</div>
+          </div>
+          <div class="stats" id="stats"></div>
+        </div>
+        <div class="strip" id="strip"></div>
+      </section>
+
+      <section class="board">
+        <!-- Cột chính: việc sắp tới -->
+        <div class="card agenda-card">
+          <div class="card-head">
+            <div>
+              <div class="card-title">Lịch việc sắp tới <span class="count" id="agendaCount">0</span></div>
+              <div class="card-sub" id="agendaSub"></div>
+            </div>
+          </div>
+          <div class="agenda" id="agenda"></div>
+        </div>
+
+        <!-- Cột phụ: quá hạn / chưa có hạn / đã xong -->
+        <aside class="card side-card">
+          <div class="tabs" id="tabs" role="tablist"></div>
+          <div class="side-note" id="sideNote"></div>
+          <div class="side-list" id="sideList"></div>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" hidden><span id="toastText"></span><button id="toastUndo">Hoàn tác</button></div>
+
+  <script src="js/utils.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
